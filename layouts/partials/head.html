@@ -230,10 +230,6 @@
   {{ end }}
 
 
-  <!-- Twitter Cards -->
-  {{ template "_internal/twitter_cards.html" . }}
-
-
   <!-- Open Graph -->
   {{ template "_internal/opengraph.html" . }}
 
@@ -247,4 +243,10 @@
   {{ if .Page.Store.Get "hasMath" }}
     {{ partial "katex.html" . }}
   {{ end }}
+
+  <link rel="site.standard.publication" href="{{ .Site.Params.publicationUri | safeURL }}">
+  {{ if .IsPage }}
+    <link rel="site.standard.document" href="{{ .Params.atUri | safeURL }}">
+  {{- end -}}
+
 </head>

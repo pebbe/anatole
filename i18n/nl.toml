@@ -1,0 +1,58 @@
+[category]
+other = "categorie"
+
+[tag]
+other = "label"
+
+[reading_time]
+one = "een minuutje"
+other = "{{ .Count }} minuten"
+
+[old_content_warning]
+one = "Waarschuwing: Dit bericht is ouder dan een dag. De informatie kan achterhaald zijn."
+other = "Waarschuwing: Dit bericht is ouder dan {{ .Count }} dagen. De informatie kan achterhaald zijn."
+
+[page_not_found]
+other = "Pagina niet gevonden"
+
+[page_does_not_exist]
+other = "Helaas, die pagina bestaat niet."
+
+[head_back]
+other = "<a href=\"{{ . }}\">Terug naar begin</a>"
+
+[comments]
+other = "reacties"
+
+[send]
+other = "Zenden"
+
+[read_more]
+other = "Lees meer"
+
+[name]
+other = "Naam"
+
+[email]
+other = "E-mail"
+
+[message]
+other = "Bericht"
+
+[warning]
+other = "Let op"
+
+[info]
+other = "Info"
+
+[update]
+other = "Update"
+
+[series_posts]
+other = "Berichten in deze reeks"
+
+[related_posts]
+other = "Verwante berichten"
+
+[toc]
+other = "Inhoud"

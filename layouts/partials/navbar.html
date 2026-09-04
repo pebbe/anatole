@@ -72,6 +72,12 @@
       {{ end }}
     </ul>
     <ul class="nav__list nav__list--end">
+
+    <li class="nav__list-item"><form action="https://bisse.nl/bin/query">
+    <input type="text" name="q" placeholder="zoeken">
+    <input type="submit" value="↲">
+    </form></li>
+
       {{ if and .IsTranslated hugo.IsMultilingual }}
         <li class="nav__list-item">
           <div class="optionswitch">
