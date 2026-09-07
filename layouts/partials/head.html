@@ -1,4 +1,8 @@
 <head>
+  {{ if not .IsPage }}
+    <meta name="robots" content="noindex" />
+  {{- end -}}
+
   <meta charset="utf-8" />
   {{- $authorName := "" -}}
   {{- with .Site.Params.author -}}
